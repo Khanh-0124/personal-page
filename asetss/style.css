@@ -181,7 +181,10 @@ body {
 }
 
 .audio__a {
-    width: 50%;
+    position: relative;
+    margin-top: -19%;
+    left: -25%;
+    width: 30%;
     height: 40%;
 }   
 
@@ -191,7 +194,7 @@ body {
     text-align: center;
     color: indianred;
     position: absolute;
-    top: 115%;
+    top: 116%;
     left: 3%;
     transform: translate(-50%, -50%);
 }
@@ -383,7 +386,7 @@ body {
     background: lightcoral;
     color: #fff;
     width: 100%;
-    height: calc(var(--unit)*60);
+    height: calc(var(--unit)*70);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -401,6 +404,7 @@ body {
 .video__para {
     width: 50%;
     font-size: calc(var(--unit)*2.2);
+    text-align: justify;
 }
 
 .image-3 {
